@@ -1,0 +1,1266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f9b1791bfb4c0f9fd9c203aa255659, type: 3}
+  m_Name: GPUSKinning_Data_Test
+  m_EditorClassIdentifier: 
+  bones:
+  - name: Root
+    bindpose:
+      e00: 1.788087e-18
+      e01: -0.029201675
+      e02: -1.1133938
+      e03: -0.48194355
+      e10: 1.3637489e-16
+      e11: -1.1133939
+      e12: 0.029201675
+      e13: 0.11032337
+      e20: -1.113777
+      e21: -1.363749e-16
+      e22: 1.7880872e-18
+      e23: 1.2734671e-17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: -1
+    childrenBonesIndices: 01000000070000000d000000
+  - name: backRump_L
+    bindpose:
+      e00: 6.710076e-17
+      e01: -1.095844
+      e02: 0.1990598
+      e03: 0.13941674
+      e10: 5.6010186e-17
+      e11: 0.1990598
+      e12: 1.095844
+      e13: 0.4791939
+      e20: -1.113777
+      e21: -5.6010093e-17
+      e22: 6.710095e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 0
+    childrenBonesIndices: 02000000
+  - name: backHip_L
+    bindpose:
+      e00: 6.665596e-17
+      e01: -1.0885701
+      e02: -0.23561394
+      e03: -0.06358351
+      e10: 8.262652e-17
+      e11: -0.23561394
+      e12: 1.08857
+      e13: 0.4880419
+      e20: -1.113777
+      e21: -8.262679e-17
+      e22: 6.6655756e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 1
+    childrenBonesIndices: 03000000
+  - name: backKnee_L
+    bindpose:
+      e00: 6.8087506e-17
+      e01: -1.1119403
+      e02: 0.06393481
+      e03: 0.044443473
+      e10: 6.4284216e-17
+      e11: 0.06393481
+      e12: 1.1119404
+      e13: 0.49493554
+      e20: -1.113777
+      e21: -6.428385e-17
+      e22: 6.8086685e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 2
+    childrenBonesIndices: 04000000
+  - name: backAnkle_L
+    bindpose:
+      e00: 0.000000024858208
+      e01: -1.113777
+      e02: -0.0000008703533
+      e03: 0.00420875
+      e10: -0.00000005636303
+      e11: -0.0000008703533
+      e12: 1.113777
+      e13: 0.49527353
+      e20: -1.113777
+      e21: -0.000000024858169
+      e22: -0.000000056363035
+      e23: -0.042000018
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 3
+    childrenBonesIndices: 05000000
+  - name: backToes_L
+    bindpose:
+      e00: -0.00000004404593
+      e01: -0.39107376
+      e02: 1.0428617
+      e03: 0.45923445
+      e10: -0.000000043065896
+      e11: 1.0428616
+      e12: 0.3910738
+      e13: 0.17125963
+      e20: -1.113777
+      e21: -0.00000002485826
+      e22: -0.000000056362936
+      e23: -0.042000018
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 4
+    childrenBonesIndices: 06000000
+  - name: backToesEnd_L
+    bindpose:
+      e00: -0.000000044045933
+      e01: -0.39107376
+      e02: 1.0428617
+      e03: 0.45435092
+      e10: -0.000000043065896
+      e11: 1.0428616
+      e12: 0.3910738
+      e13: 0.17011021
+      e20: -1.113777
+      e21: -0.00000002485826
+      e22: -0.000000056362943
+      e23: -0.042000018
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 5
+    childrenBonesIndices: 
+  - name: backRump_R
+    bindpose:
+      e00: 6.7100335e-17
+      e01: 1.0958439
+      e02: -0.19905977
+      e03: -0.13941672
+      e10: -8.03878e-17
+      e11: -0.1990598
+      e12: -1.0958439
+      e13: -0.47919387
+      e20: -1.113777
+      e21: 8.038737e-17
+      e22: 6.710122e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 0
+    childrenBonesIndices: 08000000
+  - name: backHip_R
+    bindpose:
+      e00: 6.6655134e-17
+      e01: 1.08857
+      e02: 0.235614
+      e03: 0.06358351
+      e10: -5.3772087e-17
+      e11: 0.235614
+      e12: -1.08857
+      e13: -0.48804188
+      e20: -1.113777
+      e21: 5.377332e-17
+      e22: 6.665558e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 7
+    childrenBonesIndices: 09000000
+  - name: backKnee_R
+    bindpose:
+      e00: 6.808626e-17
+      e01: 1.1119403
+      e02: -0.06393482
+      e03: -0.04444347
+      e10: -7.211403e-17
+      e11: -0.06393481
+      e12: -1.1119405
+      e13: -0.49493554
+      e20: -1.113777
+      e21: 7.211362e-17
+      e22: 6.808679e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 8
+    childrenBonesIndices: 0a000000
+  - name: backAnkle_R
+    bindpose:
+      e00: 0.000000024858213
+      e01: 1.113777
+      e02: 0.00000087035323
+      e03: -0.00420875
+      e10: -0.000000056363014
+      e11: 0.00000087035323
+      e12: -1.113777
+      e13: -0.49527353
+      e20: -1.113777
+      e21: 0.000000024858165
+      e22: 0.00000005636303
+      e23: 0.042000018
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 9
+    childrenBonesIndices: 0b000000
+  - name: backToes_R
+    bindpose:
+      e00: -0.00000004404593
+      e01: 0.39107385
+      e02: -1.0428618
+      e03: -0.45923442
+      e10: -0.0000000430659
+      e11: -1.0428618
+      e12: -0.39107385
+      e13: -0.17125964
+      e20: -1.113777
+      e21: 0.000000024858268
+      e22: 0.000000056362936
+      e23: 0.042000018
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 10
+    childrenBonesIndices: 0c000000
+  - name: backToesEnd_R
+    bindpose:
+      e00: -0.000000044045922
+      e01: 0.39107385
+      e02: -1.0428618
+      e03: -0.45435092
+      e10: -0.000000043065896
+      e11: -1.0428618
+      e12: -0.39107385
+      e13: -0.17011021
+      e20: -1.113777
+      e21: 0.000000024858265
+      e22: 0.000000056362943
+      e23: 0.042000018
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 11
+    childrenBonesIndices: 
+  - name: Spine1
+    bindpose:
+      e00: 3.4684072e-18
+      e01: -0.056643017
+      e02: -1.1123358
+      e03: -0.45405567
+      e10: 1.3631043e-16
+      e11: -1.1123357
+      e12: 0.056643017
+      e13: 0.12155485
+      e20: -1.113777
+      e21: -1.3630977e-16
+      e22: 3.4683179e-18
+      e23: 1.34625034e-17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 0
+    childrenBonesIndices: 0e000000
+  - name: Chest
+    bindpose:
+      e00: 2.6601854e-17
+      e01: -0.4344365
+      e02: -1.0255558
+      e03: -0.3589423
+      e10: 1.3099695e-16
+      e11: -1.0255557
+      e12: 0.43443647
+      e13: 0.26034006
+      e20: -1.113777
+      e21: -1.3099494e-16
+      e22: 2.6600916e-17
+      e23: 2.2046574e-17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 13
+    childrenBonesIndices: 0f000000150000001b000000
+  - name: frontRump_L
+    bindpose:
+      e00: 6.182017e-17
+      e01: -1.0095943
+      e02: -0.47033802
+      e03: -0.13078721
+      e10: 3.939762e-17
+      e11: 0.47033802
+      e12: -1.0095943
+      e13: -0.39892966
+      e20: 1.113777
+      e21: 3.9408102e-17
+      e22: 6.181223e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 14
+    childrenBonesIndices: 10000000
+  - name: frontHip_L
+    bindpose:
+      e00: 6.747279e-17
+      e01: -1.101942
+      e02: 0.161932
+      e03: 0.1007619
+      e10: 7.8117614e-17
+      e11: -0.161932
+      e12: -1.1019421
+      e13: -0.41854736
+      e20: 1.113777
+      e21: 7.8117964e-17
+      e22: 6.747676e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 15
+    childrenBonesIndices: 11000000
+  - name: frontKnee_L
+    bindpose:
+      e00: 6.709626e-17
+      e01: -1.0957193
+      e02: -0.19974808
+      e03: -0.06106498
+      e10: 5.597829e-17
+      e11: 0.19974808
+      e12: -1.0957193
+      e13: -0.42544684
+      e20: 1.113777
+      e21: 5.596883e-17
+      e22: 6.70956e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 16
+    childrenBonesIndices: 12000000
+  - name: frontAnkle_L
+    bindpose:
+      e00: 6.819738e-17
+      e01: -1.113777
+      e02: -0.0000001707409
+      e03: 0.0042831497
+      e10: 6.819674e-17
+      e11: 0.0000001707409
+      e12: -1.113777
+      e13: -0.42827544
+      e20: 1.113777
+      e21: 6.8201055e-17
+      e22: 6.8202034e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 17
+    childrenBonesIndices: 13000000
+  - name: frontToes_L
+    bindpose:
+      e00: 2.1075239e-17
+      e01: -0.34425285
+      e02: 1.0592399
+      e03: 0.40217656
+      e10: 3.3418097e-18
+      e11: 1.0592397
+      e12: 0.34425285
+      e13: 0.12973309
+      e20: -1.113777
+      e21: -3.336525e-18
+      e22: 2.1085826e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 18
+    childrenBonesIndices: 14000000
+  - name: frontToesEnd_L
+    bindpose:
+      e00: 2.1079788e-17
+      e01: -0.34425285
+      e02: 1.0592399
+      e03: 0.39810714
+      e10: 3.3389145e-18
+      e11: 1.0592397
+      e12: 0.34425285
+      e13: 0.12883793
+      e20: -1.113777
+      e21: -3.3389201e-18
+      e22: 2.1079705e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 19
+    childrenBonesIndices: 
+  - name: frontRump_R
+    bindpose:
+      e00: 6.181951e-17
+      e01: 1.0095943
+      e02: 0.47033802
+      e03: 0.13078721
+      e10: -9.699851e-17
+      e11: -0.47033802
+      e12: 1.0095943
+      e13: 0.39892966
+      e20: 1.113777
+      e21: -9.699798e-17
+      e22: 6.182282e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 14
+    childrenBonesIndices: 16000000
+  - name: frontHip_R
+    bindpose:
+      e00: 6.74761e-17
+      e01: 1.101942
+      e02: -0.161932
+      e03: -0.1007619
+      e10: -5.828381e-17
+      e11: 0.161932
+      e12: 1.1019421
+      e13: 0.41854736
+      e20: 1.113777
+      e21: -5.8285866e-17
+      e22: 6.747147e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 21
+    childrenBonesIndices: 17000000
+  - name: frontKnee_R
+    bindpose:
+      e00: 6.7094274e-17
+      e01: 1.0957193
+      e02: 0.19974808
+      e03: 0.06106498
+      e10: -8.042578e-17
+      e11: -0.19974808
+      e12: 1.0957193
+      e13: 0.42544684
+      e20: 1.113777
+      e21: -8.0428485e-17
+      e22: 6.7090303e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 22
+    childrenBonesIndices: 18000000
+  - name: frontAnkle_R
+    bindpose:
+      e00: 6.8199195e-17
+      e01: 1.113777
+      e02: 0.0000001707409
+      e03: -0.0042831497
+      e10: -6.819674e-17
+      e11: -0.0000001707409
+      e12: 1.113777
+      e13: 0.42827544
+      e20: 1.113777
+      e21: -6.8198725e-17
+      e22: 6.8202034e-17
+      e23: -0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 23
+    childrenBonesIndices: 19000000
+  - name: frontToes_R
+    bindpose:
+      e00: 2.1078506e-17
+      e01: 0.34425285
+      e02: -1.0592399
+      e03: -0.40217656
+      e10: -1.3305912e-16
+      e11: -1.0592397
+      e12: -0.34425285
+      e13: -0.12973309
+      e20: -1.113777
+      e21: 1.3305834e-16
+      e22: 2.1081153e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 24
+    childrenBonesIndices: 1a000000
+  - name: frontToesEnd_R
+    bindpose:
+      e00: 2.1079044e-17
+      e01: 0.34425285
+      e02: -1.0592399
+      e03: -0.39810714
+      e10: -1.3305862e-16
+      e11: -1.0592397
+      e12: -0.34425285
+      e13: -0.12883793
+      e20: -1.113777
+      e21: 1.3305853e-16
+      e22: 2.107987e-17
+      e23: 0.041999996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 25
+    childrenBonesIndices: 
+  - name: Neck
+    bindpose:
+      e00: 5.587214e-17
+      e01: -0.91244394
+      e02: -0.63870543
+      e03: -0.1412453
+      e10: 1.0730861e-16
+      e11: -0.63870543
+      e12: 0.91244394
+      e13: 0.38252437
+      e20: -1.113777
+      e21: -1.07308506e-16
+      e22: 5.587111e-17
+      e23: 2.9769608e-17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 14
+    childrenBonesIndices: 1c000000
+  - name: Head
+    bindpose:
+      e00: 5.38391e-17
+      e01: -0.8792378
+      e02: -0.6836953
+      e03: -0.085650444
+      e10: 1.1006329e-16
+      e11: -0.6836954
+      e12: 0.8792378
+      e13: 0.42872912
+      e20: -1.113777
+      e21: -1.1006398e-16
+      e22: 5.383817e-17
+      e23: 3.8226915e-17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 27
+    childrenBonesIndices: 1d000000
+  - name: HeadEnd
+    bindpose:
+      e00: 5.3838208e-17
+      e01: -0.8792378
+      e02: -0.6836953
+      e03: -0.0034365952
+      e10: 1.10063494e-16
+      e11: -0.6836954
+      e12: 0.8792378
+      e13: 0.42418838
+      e20: -1.113777
+      e21: -1.10064474e-16
+      e22: 5.3837877e-17
+      e23: 4.175216e-17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    parentBoneIndex: 28
+    childrenBonesIndices: 
+  clips:
+  - name: Walk
+    length: 1.25
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: -0.00007663689, y: -0.008726021, z: -0.008670509, w: 0.9999243}
+      rootMotionDeltaPositionL: 0.00058308686
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.00024830512, w: 1}
+    - rootMotionDeltaPositionQ: {x: -0.00007663689, y: -0.008726021, z: -0.008670509, w: 0.9999243}
+      rootMotionDeltaPositionL: 0.00058308686
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.00024830512, w: 1}
+    - rootMotionDeltaPositionQ: {x: -0.000076658755, y: -0.0087260045, z: -0.008667988, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0014763728
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.00012586777, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.0000766745, y: -0.0087259915, z: -0.00866617, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0025162697
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0002931491, w: 1}
+    - rootMotionDeltaPositionQ: {x: -0.00007668919, y: -0.00872598, z: -0.008664476, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.003539159
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.00093458005, w: 0.9999996}
+    - rootMotionDeltaPositionQ: {x: -0.00007670561, y: -0.008725966, z: -0.00866258, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0043814452
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.001724261, w: 0.99999857}
+    - rootMotionDeltaPositionQ: {x: -0.0000767272, y: -0.008725948, z: -0.008660087, w: 0.9999244}
+      rootMotionDeltaPositionL: 0.004879518
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0025880225, w: 0.99999666}
+    - rootMotionDeltaPositionQ: {x: -0.00007676042, y: -0.008725917, z: -0.00865625, w: 0.9999244}
+      rootMotionDeltaPositionL: 0.004869789
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0034516985, w: 0.9999941}
+    - rootMotionDeltaPositionQ: {x: -0.00007680023, y: -0.008725879, z: -0.0086516505, w: 0.9999245}
+      rootMotionDeltaPositionL: 0.004426954
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0042411224, w: 0.99999106}
+    - rootMotionDeltaPositionQ: {x: -0.00007683693, y: -0.0087258415, z: -0.008647407, w: 0.99992454}
+      rootMotionDeltaPositionL: 0.0037871653
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.004882127, w: 0.9999881}
+    - rootMotionDeltaPositionQ: {x: -0.000076875476, y: -0.0087258, z: -0.008642949, w: 0.99992454}
+      rootMotionDeltaPositionL: 0.003028933
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0053005465, w: 0.99998605}
+    - rootMotionDeltaPositionQ: {x: -0.0000769217, y: -0.008725747, z: -0.008637598, w: 0.9999246}
+      rootMotionDeltaPositionL: 0.0022307592
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0054222266, w: 0.9999853}
+    - rootMotionDeltaPositionQ: {x: -0.0000769855, y: -0.008725667, z: -0.008630207, w: 0.99992466}
+      rootMotionDeltaPositionL: 0.0014711615
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0051730024, w: 0.99998665}
+    - rootMotionDeltaPositionQ: {x: -0.00007708661, y: -0.00872553, z: -0.008618482, w: 0.9999248}
+      rootMotionDeltaPositionL: 0.0008286571
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0044787065, w: 0.99999}
+    - rootMotionDeltaPositionQ: {x: -0.0000772442, y: -0.008725284, z: -0.008600174, w: 0.9999249}
+      rootMotionDeltaPositionL: 0.0003817405
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0032651725, w: 0.99999475}
+    - rootMotionDeltaPositionQ: {x: -0.00007715451, y: -0.008725429, z: -0.008610599, w: 0.99992484}
+      rootMotionDeltaPositionL: 0.00020892516
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0020408821, w: 0.9999979}
+    - rootMotionDeltaPositionQ: {x: -0.000076683646, y: -0.008725984, z: -0.008665115, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0003887212
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0013123996, w: 0.9999992}
+    - rootMotionDeltaPositionQ: {x: -0.00007661568, y: -0.008726036, z: -0.0086729545, w: 0.9999243}
+      rootMotionDeltaPositionL: 0.0009996556
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0010026294, w: 0.9999995}
+    - rootMotionDeltaPositionQ: {x: -0.00007663513, y: -0.008726023, z: -0.008670713, w: 0.9999243}
+      rootMotionDeltaPositionL: 0.0019299703
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0010344718, w: 0.9999995}
+    - rootMotionDeltaPositionQ: {x: -0.00007665795, y: -0.0087260045, z: -0.00866808, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0029247457
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0013308349, w: 0.99999917}
+    - rootMotionDeltaPositionQ: {x: -0.00007667984, y: -0.008725988, z: -0.008665554, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0038478484
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.001814619, w: 0.99999845}
+    - rootMotionDeltaPositionQ: {x: -0.000076702425, y: -0.008725969, z: -0.008662947, w: 0.99992436}
+      rootMotionDeltaPositionL: 0.0045631756
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0024087338, w: 0.9999971}
+    - rootMotionDeltaPositionQ: {x: -0.000076728975, y: -0.008725947, z: -0.008659883, w: 0.9999244}
+      rootMotionDeltaPositionL: 0.00493461
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0030360813, w: 0.9999954}
+    - rootMotionDeltaPositionQ: {x: -0.00007676591, y: -0.008725911, z: -0.008655616, w: 0.9999244}
+      rootMotionDeltaPositionL: 0.004826048
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.003619568, w: 0.9999935}
+    - rootMotionDeltaPositionQ: {x: -0.0000768048, y: -0.008725875, z: -0.008651122, w: 0.9999245}
+      rootMotionDeltaPositionL: 0.0042958283
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.004082101, w: 0.9999918}
+    - rootMotionDeltaPositionQ: {x: -0.00007683309, y: -0.008725845, z: -0.008647852, w: 0.9999245}
+      rootMotionDeltaPositionL: 0.0035557617
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.004346588, w: 0.9999906}
+    - rootMotionDeltaPositionQ: {x: -0.000076854514, y: -0.008725822, z: -0.008645372, w: 0.99992454}
+      rootMotionDeltaPositionL: 0.0026998934
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.004335935, w: 0.9999907}
+    - rootMotionDeltaPositionQ: {x: -0.0000768712, y: -0.008725803, z: -0.008643443, w: 0.99992454}
+      rootMotionDeltaPositionL: 0.0018223152
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0039730435, w: 0.9999922}
+    - rootMotionDeltaPositionQ: {x: -0.00007688447, y: -0.008725789, z: -0.008641907, w: 0.99992454}
+      rootMotionDeltaPositionL: 0.0010170965
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.003180823, w: 0.999995}
+    - rootMotionDeltaPositionQ: {x: -0.00007689452, y: -0.008725778, z: -0.008640745, w: 0.9999246}
+      rootMotionDeltaPositionL: 0.00037829156
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0018821565, w: 0.9999983}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Run
+    length: 0.45833337
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0027242526
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.014705875, w: 0.999892}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0027242526
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.014705875, w: 0.999892}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.006273024
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.024599291, w: 0.99969745}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0077582
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.028804813, w: 0.9995851}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.008050419
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.02644769, w: 0.9996503}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.007967718
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.016647354, w: 0.99986154}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0076729134
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.00034541992, w: 1}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0068169385
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.017348254, w: 0.99984956}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0054501593
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.031055091, w: 0.99951774}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0036229491
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.035406947, w: 0.9993731}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0016969219
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.025038224, w: 0.99968654}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Eat
+    length: 1.2083334
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0001733154
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0001733154
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00032901764
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00046768785
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0005899146
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0006962642
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0007873252
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0008636862
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00092591345
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.000974603
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.001010336
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010336787
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010452345
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010455623
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010352656
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010149106
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0009850785
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0009463653
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00089933723
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0008445829
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0007826835
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0007142201
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0006397739
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0005599335
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0004752651
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00038636476
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00029379874
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00019816309
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.000100038946
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Jump
+    length: 0.4583335
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: 0.00007615242, y: 0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0044288486
+      rootMotionDeltaRotation: {x: -0.00000065961103, y: -0.000015194311, z: -0.017833024, w: 0.999841}
+    - rootMotionDeltaPositionQ: {x: 0.00007615242, y: 0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0044288486
+      rootMotionDeltaRotation: {x: -0.00000065961103, y: -0.000015194311, z: -0.017833024, w: 0.999841}
+    - rootMotionDeltaPositionQ: {x: 0.00007615242, y: 0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0063912794
+      rootMotionDeltaRotation: {x: 0.000001103114, y: -0.000057739016, z: -0.0618911, w: 0.99808294}
+    - rootMotionDeltaPositionQ: {x: 0.00007615242, y: 0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0066556707
+      rootMotionDeltaRotation: {x: 0.000007638299, y: -0.00012230597, z: -0.120614655, w: 0.9926994}
+    - rootMotionDeltaPositionQ: {x: 0.00007615242, y: 0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.005671479
+      rootMotionDeltaRotation: {x: 0.000020730433, y: -0.00020030646, z: -0.17739625, w: 0.98413944}
+    - rootMotionDeltaPositionQ: {x: 0.00007615242, y: 0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0032201484
+      rootMotionDeltaRotation: {x: 0.000040511393, y: -0.00028534947, z: -0.2204189, w: 0.9754052}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0004074797
+      rootMotionDeltaRotation: {x: 0.000056788194, y: -0.00036620258, z: -0.23843955, w: 0.97115725}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0039976537
+      rootMotionDeltaRotation: {x: 0.000047958816, y: -0.00042652135, z: -0.2240244, w: 0.97458345}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.006336622
+      rootMotionDeltaRotation: {x: 0.0000075996213, y: -0.00046020641, z: -0.18754508, w: 0.9822559}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0067516416
+      rootMotionDeltaRotation: {x: -0.000055400415, y: -0.0004671508, z: -0.14045002, w: 0.9900876}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0056661963
+      rootMotionDeltaRotation: {x: -0.000086812746, y: -0.0004044504, z: -0.086644165, w: 0.9962393}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Idle
+    length: 0.916667
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00009125471
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.00051517, w: 0.9999999}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00009125471
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.00051517, w: 0.9999999}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00020883977
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0009512192, w: 0.9999995}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00034604222
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0013123561, w: 0.9999991}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0004961416
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0016027911, w: 0.99999875}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.000652425
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0018267324, w: 0.99999833}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0008081868
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0019883895, w: 0.99999803}
+    - rootMotionDeltaPositionQ: {x: -0.00007615242, y: -0.008726203, z: -0.008726203, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0009567067
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0020919722, w: 0.9999978}
+    - rootMotionDeltaPositionQ: {x: -0.00007615229, y: -0.008726203, z: -0.008726218, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010912716
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0021416892, w: 0.99999774}
+    - rootMotionDeltaPositionQ: {x: -0.000076152304, y: -0.008726203, z: -0.008726217, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0012051687
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0021417493, w: 0.99999774}
+    - rootMotionDeltaPositionQ: {x: -0.00007615231, y: -0.008726203, z: -0.008726216, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0012916774
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0020963612, w: 0.99999774}
+    - rootMotionDeltaPositionQ: {x: -0.00007615231, y: -0.008726203, z: -0.008726215, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0013440996
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0020097352, w: 0.999998}
+    - rootMotionDeltaPositionQ: {x: -0.00007615231, y: -0.008726203, z: -0.008726215, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0013557076
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0018860792, w: 0.9999982}
+    - rootMotionDeltaPositionQ: {x: -0.00007615231, y: -0.008726203, z: -0.008726215, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0013197884
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0017296028, w: 0.9999985}
+    - rootMotionDeltaPositionQ: {x: -0.000076152304, y: -0.008726203, z: -0.008726216, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0012296364
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0015445144, w: 0.9999988}
+    - rootMotionDeltaPositionQ: {x: -0.00007615229, y: -0.008726203, z: -0.008726218, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0010785311
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0013350227, w: 0.99999905}
+    - rootMotionDeltaPositionQ: {x: -0.00007615226, y: -0.008726203, z: -0.0087262215, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0008920878
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.001105338, w: 0.9999994}
+    - rootMotionDeltaPositionQ: {x: -0.00007615222, y: -0.008726203, z: -0.008726226, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0007048547
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0008596699, w: 0.99999964}
+    - rootMotionDeltaPositionQ: {x: -0.00007615215, y: -0.008726203, z: -0.008726234, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0005235672
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.0006022228, w: 0.9999998}
+    - rootMotionDeltaPositionQ: {x: -0.00007615202, y: -0.008726203, z: -0.0087262485, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00035494566
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.00033721124, w: 0.99999994}
+    - rootMotionDeltaPositionQ: {x: -0.00007615173, y: -0.008726203, z: -0.008726282, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00020572543
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.00006884252, w: 1}
+    - rootMotionDeltaPositionQ: {x: -0.0000761507, y: -0.008726203, z: -0.008726399, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.00008264184
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.0001986764, w: 1}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Rest
+    length: 1.833334
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000007007072, y: -0.000026090025, z: -0.00007158665, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000007007072, y: -0.000026090025, z: -0.00007158665, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000017877027, y: -0.000066518056, z: -0.00018240999, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000032288008, y: -0.000120045406, z: -0.00032909136, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000049864157, y: -0.00018538827, z: -0.00050824153, w: 1}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000069946004, y: -0.0002613389, z: -0.00071641296, w: 0.99999976}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000009252283, y: -0.000346696, z: -0.00095020264, w: 0.9999995}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00001174875, y: -0.00044017914, z: -0.0012062411, w: 0.9999993}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000014400351, y: -0.00054041744, z: -0.0014811254, w: 0.9999988}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000017223716, y: -0.0006463728, z: -0.001771408, w: 0.9999983}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000020145644, y: -0.0007566797, z: -0.0020737173, w: 0.9999976}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000023150338, y: -0.0008701334, z: -0.0023846284, w: 0.99999684}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000026227275, y: -0.0009855356, z: -0.002700753, w: 0.99999595}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000029292803, y: -0.0011015153, z: -0.0030186884, w: 0.99999493}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000032324573, y: -0.0012169953, z: -0.0033350042, w: 0.99999374}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000035348814, y: -0.0013306467, z: -0.0036463034, w: 0.99999255}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000038258713, y: -0.0014411459, z: -0.0039492073, w: 0.9999913}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000041096682, y: -0.0015473751, z: -0.004240303, w: 0.9999899}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000043736138, y: -0.0016480867, z: -0.004516155, w: 0.9999885}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000046222325, y: -0.0017419534, z: -0.0047733802, w: 0.9999872}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000048489437, y: -0.0018277785, z: -0.0050085923, w: 0.9999859}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005049998, y: -0.0019043529, z: -0.0052183424, w: 0.9999847}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000052241623, y: -0.0019704367, z: -0.005399247, w: 0.99998355}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005368519, y: -0.002024664, z: -0.005547939, w: 0.99998266}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005475729, y: -0.0020659533, z: -0.0056609595, w: 0.99998194}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005545551, y: -0.002092935, z: -0.0057349196, w: 0.99998146}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000055741795, y: -0.0021044519, z: -0.005766422, w: 0.9999812}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005560196, y: -0.0020992593, z: -0.0057520554, w: 0.99998134}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000054949887, y: -0.0020760293, z: -0.005688421, w: 0.9999817}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005382354, y: -0.0020336038, z: -0.0055721193, w: 0.99998254}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00005213446, y: -0.0019707375, z: -0.005399729, w: 0.99998355}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00004988994, y: -0.0018861429, z: -0.0051678475, w: 0.9999849}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000047002286, y: -0.0017785372, z: -0.004873084, w: 0.99998665}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000043504417, y: -0.0016468015, z: -0.0045120176, w: 0.99998856}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000039294686, y: -0.0014896115, z: -0.0040812655, w: 0.99999064}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000034396944, y: -0.0013057167, z: -0.0035773877, w: 0.9999928}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000028809487, y: -0.0010939647, z: -0.002997014, w: 0.99999505}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000023034168, y: -0.0008762135, z: -0.0024003643, w: 0.9999968}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000017791144, y: -0.0006769389, z: -0.0018542567, w: 0.99999815}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.00001315218, y: -0.000498352, z: -0.0013651492, w: 0.9999991}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000009077529, y: -0.0003429612, z: -0.00093947793, w: 0.9999996}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.000005738629, y: -0.00021309993, z: -0.00058367767, w: 0.99999994}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000030154958, y: -0.000111025096, z: -0.00030420706, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+      rootMotionDeltaPositionL: 0
+      rootMotionDeltaRotation: {x: -0.0000011034382, y: -0.000039240298, z: -0.00010749599, w: 1.0000001}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Damage
+    length: 0.37500095
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: -0.000012448064, y: -0.0057520997, z: -0.015288356, w: 0.99986655}
+      rootMotionDeltaPositionL: 0.017184298
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.037065048, w: 0.99931294}
+    - rootMotionDeltaPositionQ: {x: -0.000012448064, y: -0.0057520997, z: -0.015288356, w: 0.99986655}
+      rootMotionDeltaPositionL: 0.017184298
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.037065048, w: 0.99931294}
+    - rootMotionDeltaPositionQ: {x: -0.0000124441185, y: -0.0057515525, z: -0.015288836, w: 0.99986655}
+      rootMotionDeltaPositionL: 0.023533229
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.05681184, w: 0.99838495}
+    - rootMotionDeltaPositionQ: {x: -0.000012491199, y: -0.005758078, z: -0.015283112, w: 0.9998666}
+      rootMotionDeltaPositionL: 0.023010451
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.057999138, w: 0.9983167}
+    - rootMotionDeltaPositionQ: {x: -0.000012701195, y: -0.0057869474, z: -0.015257647, w: 0.99986684}
+      rootMotionDeltaPositionL: 0.019962907
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.050706703, w: 0.9987136}
+    - rootMotionDeltaPositionQ: {x: -0.000013662319, y: -0.0059144204, z: -0.015142452, w: 0.9998679}
+      rootMotionDeltaPositionL: 0.012581028
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.03833356, w: 0.999265}
+    - rootMotionDeltaPositionQ: {x: -0.000015816144, y: -0.006175668, z: -0.014891421, w: 0.99987}
+      rootMotionDeltaPositionL: 0.00629311
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.024285674, w: 0.9997051}
+    - rootMotionDeltaPositionQ: {x: -0.000017420156, y: -0.006351727, z: -0.014709887, w: 0.9998717}
+      rootMotionDeltaPositionL: 0.0031674658
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.011975514, w: 0.99992836}
+    - rootMotionDeltaPositionQ: {x: -0.000018729681, y: -0.006485556, z: -0.014564572, w: 0.99987286}
+      rootMotionDeltaPositionL: 0.0008852497
+      rootMotionDeltaRotation: {x: 0, y: 0, z: -0.004229721, w: 0.9999911}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Attack
+    length: 0.58333397
+    frameRate: 24
+    wrapMode: 1
+    frames:
+    - rootMotionDeltaPositionQ: {x: -0.00008346663, y: -0.0053404537, z: -0.0018254117, w: 0.999984}
+      rootMotionDeltaPositionL: 0.026466474
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00008346663, y: -0.0053404537, z: -0.0018254117, w: 0.999984}
+      rootMotionDeltaPositionL: 0.026466474
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.000081886355, y: -0.005205154, z: -0.0017227825, w: 0.999985}
+      rootMotionDeltaPositionL: 0.040803444
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.000081291626, y: -0.0051552895, z: -0.0016859905, w: 0.9999853}
+      rootMotionDeltaPositionL: 0.04529604
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00008172878, y: -0.005191889, z: -0.0017129406, w: 0.99998504}
+      rootMotionDeltaPositionL: 0.043675464
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00008314325, y: -0.0053124153, z: -0.0018038007, w: 0.99998426}
+      rootMotionDeltaPositionL: 0.038639564
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00008593632, y: -0.005561406, z: -0.0020022248, w: 0.9999825}
+      rootMotionDeltaPositionL: 0.030269878
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.0000911718, y: -0.0060855416, z: -0.002472658, w: 0.9999784}
+      rootMotionDeltaPositionL: 0.019553425
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.000098869175, y: -0.0074526025, z: -0.0041875457, w: 0.99996346}
+      rootMotionDeltaPositionL: 0.008970364
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00002526386, y: -0.0070499247, z: -0.013868953, w: 0.99987894}
+      rootMotionDeltaPositionL: 0.0037254575
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.0000002604947, y: -0.0016516205, z: -0.017294684, w: 0.999849}
+      rootMotionDeltaPositionL: 0.0047680335
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.000000063041824, y: -0.0010311668, z: -0.017391268, w: 0.9998482}
+      rootMotionDeltaPositionL: 0.0039781644
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.00000012495457, y: -0.0012944182, z: -0.017355872, w: 0.99984854}
+      rootMotionDeltaPositionL: 0.0023670862
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: -0.0000018370303, y: -0.003140964, z: -0.016867548, w: 0.9998528}
+      rootMotionDeltaPositionL: 0.00078408077
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  - name: Die
+    length: 0.791667
+    frameRate: 24
+    wrapMode: 0
+    frames:
+    - rootMotionDeltaPositionQ: {x: 0.000076152355, y: 0.008726203, z: -0.00872621, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0109035
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.0000009179322, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0.000076152355, y: 0.008726203, z: -0.00872621, w: 0.9999238}
+      rootMotionDeltaPositionL: 0.0109035
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.0000009179322, w: 1.0000001}
+    - rootMotionDeltaPositionQ: {x: 0.00007144878, y: 0.008710484, z: -0.009250374, w: 0.99991924}
+      rootMotionDeltaPositionL: 0.020735867
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.24340148, w: 0.9699257}
+    - rootMotionDeltaPositionQ: {x: 0.00007031416, y: 0.008702248, z: -0.009372976, w: 0.99991816}
+      rootMotionDeltaPositionL: 0.028927384
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.46205932, w: 0.8868491}
+    - rootMotionDeltaPositionQ: {x: 0.00007023753, y: 0.008701633, z: -0.0093812095, w: 0.9999181}
+      rootMotionDeltaPositionL: 0.034652933
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.64549077, w: 0.76376814}
+    - rootMotionDeltaPositionQ: {x: 0.00007068422, y: 0.008705114, z: -0.009333132, w: 0.9999185}
+      rootMotionDeltaPositionL: 0.036840625
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.7865421, w: 0.6175368}
+    - rootMotionDeltaPositionQ: {x: 0.00006942728, y: 0.008694676, z: -0.009467929, w: 0.9999173}
+      rootMotionDeltaPositionL: 0.025498256
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.8858968, w: 0.4638824}
+    - rootMotionDeltaPositionQ: {x: 0.00004225333, y: 0.008013763, z: -0.012180054, w: 0.99989367}
+      rootMotionDeltaPositionL: 0.0040088287
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9475043, w: 0.31974322}
+    - rootMotionDeltaPositionQ: {x: -0.000072631796, y: -0.008717292, z: -0.00912109, w: 0.99992037}
+      rootMotionDeltaPositionL: 0.023815421
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.97794276, w: 0.2088736}
+    - rootMotionDeltaPositionQ: {x: -0.00007498068, y: -0.008725196, z: -0.00885947, w: 0.9999227}
+      rootMotionDeltaPositionL: 0.054276273
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872569, w: 0.15913507}
+    - rootMotionDeltaPositionQ: {x: -0.00007470256, y: -0.0087246625, z: -0.008890816, w: 0.9999224}
+      rootMotionDeltaPositionL: 0.04394062
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.1591354}
+    - rootMotionDeltaPositionQ: {x: -0.00007430358, y: -0.008723706, z: -0.008935608, w: 0.99992204}
+      rootMotionDeltaPositionL: 0.034541853
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913548}
+    - rootMotionDeltaPositionQ: {x: -0.0000738047, y: -0.008722194, z: -0.008991318, w: 0.9999215}
+      rootMotionDeltaPositionL: 0.027283292
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913552}
+    - rootMotionDeltaPositionQ: {x: -0.000073437506, y: -0.008720861, z: -0.009032124, w: 0.99992114}
+      rootMotionDeltaPositionL: 0.02364402
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913554}
+    - rootMotionDeltaPositionQ: {x: -0.000073974436, y: -0.008722747, z: -0.008972399, w: 0.9999217}
+      rootMotionDeltaPositionL: 0.029379902
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913552}
+    - rootMotionDeltaPositionQ: {x: -0.00007458831, y: -0.008724412, z: -0.008903665, w: 0.9999223}
+      rootMotionDeltaPositionL: 0.040759284
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913549}
+    - rootMotionDeltaPositionQ: {x: -0.000074980686, y: -0.008725196, z: -0.00885947, w: 0.9999227}
+      rootMotionDeltaPositionL: 0.054276362
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913546}
+    - rootMotionDeltaPositionQ: {x: -0.00007498068, y: -0.008725196, z: -0.00885947, w: 0.9999227}
+      rootMotionDeltaPositionL: 0.054276217
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913543}
+    - rootMotionDeltaPositionQ: {x: -0.00007498068, y: -0.008725196, z: -0.00885947, w: 0.9999227}
+      rootMotionDeltaPositionL: 0.054276217
+      rootMotionDeltaRotation: {x: 0, y: 0, z: 0.9872568, w: 0.15913542}
+    pixelSegmentation: 0
+    rootMotionEnabled: 0
+  textureWidth: 0
+  textureHeight: 0
+  rootBoneIndex: 0
+  rootTransformMatrix:
+    e00: -0.00000011920929
+    e01: 0
+    e02: -1.0000001
+    e03: 9.3993285e-33
+    e10: -0.0024259023
+    e11: -0.99999726
+    e12: 0
+    e13: 0.09532952
+    e20: -0.99999714
+    e21: 0.0024259023
+    e22: -0.00000011920929
+    e23: -0.023743875
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
